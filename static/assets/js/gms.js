@@ -53,9 +53,9 @@ function addGms(name, imageUrl, onClickFunction, width, height) {
 var gms = {
   // All-Time favorites
   'GeForce Now': { imageUrl: "/assets/img/geforcenow.webp", onClick: geforce },
-  'Roblox': { imageUrl: "/assets/img/roblox.webp", onClick: rbx },
+  'ロブロ': { imageUrl: "/assets/img/roblox.webp", onClick: rbx },
   // Shooter Games
-  '1v1.lol': { imageUrl: "/assets/img/1v1.webp", onClick: onevone },
+  'フォトナみたいなやつ': { imageUrl: "/assets/img/1v1.webp", onClick: onevone },
   'Awesome Tanks 2': { imageUrl: "/assets/img/atanks2.webp", onClick: awesomeTanksTwo, height: 135 },
   'Florr.io': { imageUrl: "/assets/img/florr.webp", onClick: florr },
   'Krunker.io': { imageUrl: "/assets/img/krunker.webp", onClick: krunker },
@@ -88,19 +88,19 @@ var gms = {
   'Moto X3M': { imageUrl: "/assets/img/motox3m.webp", onClick: motoX3M },
   // Brain Games
   'Bitlife': { imageUrl: "/assets/img/bitlife.webp", onClick: bitlife, height: 135 },
-  '2048 ': { imageUrl: "/assets/img/2048.webp", onClick: twoZeroFourEight, height: 135 },
+  '4610 ': { imageUrl: "/assets/img/2048.webp", onClick: twoZeroFourEight, height: 135 },
   'Pokemon 2048': { imageUrl: "/assets/img/p2048.webp", onClick: p2048, height: 135 },
   'Chess.com': { imageUrl: "/assets/img/chess.webp", onClick: chess },
   'Jstris': { imageUrl: "/assets/img/jstris.webp", onClick: jstris },
   'Watermelon Game (Suika)': { imageUrl: "/assets/img/suika.webp", onClick: suikaWatermelon, height: 135 },
   "World's Hardest GM": { imageUrl: "/assets/img/worldshardestgm.webp", onClick: worldsHardestGm, height: 135 },
   // Idle/Clicking Games
-  'Cookie Clicker': { imageUrl: "/assets/img/cookieclicker.webp", onClick: cookieClicker },
+  'Cookieをクリック': { imageUrl: "/assets/img/cookieclicker.webp", onClick: cookieClicker },
   'Idle Breakout': { imageUrl: "/assets/img/idlebreakout.webp", onClick: idleBreakout },
   'Monkey Mart': { imageUrl: "/assets/img/monkeymart.webp", onClick: monkeyMart },
   // Sandbox/Arcade Games
-  'Eaglercraft (1.5)': { imageUrl: "/assets/img/eaglercraft.webp", onClick: eaglerCraft15, height: 135 },
-  'Eaglercraft (1.8)': { imageUrl: "/assets/img/eaglercraft.webp", onClick: eaglerCraft18, height: 135 },
+  'マイクラの海賊 (1.5)': { imageUrl: "/assets/img/eaglercraft.webp", onClick: eaglerCraft15, height: 135 },
+  'マイクラの海賊 (1.8)': { imageUrl: "/assets/img/eaglercraft.webp", onClick: eaglerCraft18, height: 135 },
   'Kick The Buddy': { imageUrl: "/assets/img/super-buddy-kick.webp", onClick: kickTheBuddy, height: 135 },
   'There is No Game': { imageUrl: "/assets/img/there-is-no-gms.webp", onClick: thereIsNoGame, height: 135 },
 };
